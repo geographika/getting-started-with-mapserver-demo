@@ -1,0 +1,2 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";const t=document.getElementById("searchInput"),o=document.getElementById("gridContainer");t.addEventListener("input",i);function i(){const n=t.value.toLowerCase(),s=o.getElementsByClassName("grid-item");for(const e of s)e.querySelector(".title").textContent.toLowerCase().includes(n)?e.style.display="block":e.style.display="none"}
+//# sourceMappingURL=fonts-Bp9oj7YB.js.map
