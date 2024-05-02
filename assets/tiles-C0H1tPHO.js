@@ -1,0 +1,2 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";import{M as e,V as r}from"./Layer-g4n5as8K.js";/* empty css              */import{T as a,X as s}from"./Tile-B1QhEY_N.js";import"./TileLayer-DKlwvqDf.js";const t="https://api.mapserverstudio.net/mapserver/?",p="map=/etc/mapserver/mapfiles/workshop/";new e({target:"map",layers:[new a({source:new s({url:t+p+"tiles.map&MODE=tile&TILE={x}+{y}+{z}&LAYERS=countries"})})],view:new r({center:[-472202,7530279],zoom:5})});
+//# sourceMappingURL=tiles-C0H1tPHO.js.map
