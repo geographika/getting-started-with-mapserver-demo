@@ -1,2 +1,0 @@
-import"./modulepreload-polyfill-B5Qt9EMX.js";import{M as e,d as a,V as r}from"./Layer-DfBln9ZQ.js";/* empty css              */import{I as s,a as t}from"./Image-D5fsOTf4.js";import{F as o}from"./FullScreen-C3YfvjEE.js";const m="https://api.mapserverstudio.net/mapserver/?",p="map=/etc/mapserver/mapfiles/workshop/",n=[new s({source:new t({url:m+p+"stars.map&",params:{LAYERS:"constellations,stars,stars2"},ratio:1})})];new e({layers:n,target:"map",controls:a().extend([new o]),view:new r({projection:"EPSG:4326",center:[0,0],zoom:4})});
-//# sourceMappingURL=stars-99jFKrCg.js.map
