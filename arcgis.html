@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArcGIS Feature Server</title>
+    <style>
+        /* panel styling */
+        #control-panel {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 8px 12px;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+
+            #control-panel input[type="checkbox"] {
+                margin-right: 6px;
+            }
+    </style>
+  <script type="module" crossorigin src="./assets/arcgis-DmMOWUM0.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="./assets/Layer-eASHzlz-.js">
+  <link rel="modulepreload" crossorigin href="./assets/Image-BgtR5omk.js">
+  <link rel="modulepreload" crossorigin href="./assets/TileProperty-BNZ7Zwkk.js">
+  <link rel="modulepreload" crossorigin href="./assets/Tile-Y2pTeKLg.js">
+  <link rel="modulepreload" crossorigin href="./assets/OSM-BFdwjSVW.js">
+  <link rel="stylesheet" crossorigin href="./assets/Layer-BtPuoxOl.css">
+  <link rel="stylesheet" crossorigin href="./assets/style-CbnTzL8_.css">
+</head>
+<body>
+    <div id="map"></div>
+    <div id="control-panel">
+        <label>
+            <input type="checkbox" id="labelsCheckbox" />
+            Labels
+        </label>
+    </div>
+</body>
+</html>
