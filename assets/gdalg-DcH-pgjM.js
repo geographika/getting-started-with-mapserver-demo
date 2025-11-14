@@ -1,0 +1,2 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";import{M as a,V as e}from"./Layer-eASHzlz-.js";/* empty css              */import{I as r,a as o}from"./Image-BgtR5omk.js";const s="https://mapserver-workshop-k8hvw.ondigitalocean.app/?",m="map=/etc/mapserver/",p=[new r({source:new o({url:s+m+"gdalg.map&",params:{LAYERS:"buffered_roads,roads"},ratio:1})})];new a({layers:p,target:"map",view:new e({center:[297586275916499e-8,80463698646329e-7],zoom:17})});
+//# sourceMappingURL=gdalg-DcH-pgjM.js.map
