@@ -1,0 +1,2 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";import{M as e,V as a}from"./Layer-Ca1tWAJz.js";/* empty css              */import{I as r,a as s}from"./Image-lzegDj6u.js";const t="https://mapserver-workshop-k8hvw.ondigitalocean.app/?",m="map=/etc/mapserver/",o=[new r({extent:[296874365508978e-8,803892167212233e-8,29829818632402e-7,805381805714347e-8],source:new s({url:t+m+"landuse.map&",params:{LAYERS:"landuse",STYLES:""},ratio:1})})];new e({layers:o,target:"map",view:new a({center:[297586275916499e-8,80463698646329e-7],zoom:14})});
+//# sourceMappingURL=landuse-w2JMAmxx.js.map

@@ -1,0 +1,2 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";import{M as a,V as e}from"./Layer-Ca1tWAJz.js";/* empty css              */import{I as r,a as p}from"./Image-lzegDj6u.js";const o="https://mapserver-workshop-k8hvw.ondigitalocean.app/?",m="map=/etc/mapserver/",s=[new r({source:new p({url:o+m+"stac.map&",params:{LAYERS:"lcpri",STYLES:"",VERSION:"1.1.1"}})})];new a({layers:s,target:"map",view:new e({projection:"EPSG:4326",center:[-73.914695,41.980675],zoom:13})});
+//# sourceMappingURL=stac-CfgKVBfG.js.map
