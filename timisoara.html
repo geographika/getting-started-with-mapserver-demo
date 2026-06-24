@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timișoara</title>
+    <style>
+        #building-filter {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            z-index: 1000;
+            background: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+
+            #building-filter label {
+                margin-right: 8px;
+                font-weight: bold;
+            }
+    </style>
+  <script type="module" crossorigin src="./assets/timisoara-BB9w77-Q.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="./assets/Layer-Ca1tWAJz.js">
+  <link rel="modulepreload" crossorigin href="./assets/Image-lzegDj6u.js">
+  <link rel="modulepreload" crossorigin href="./assets/TileProperty-CisBUXov.js">
+  <link rel="modulepreload" crossorigin href="./assets/Tile-CBGMOqMx.js">
+  <link rel="modulepreload" crossorigin href="./assets/OSM-MW1OKsNu.js">
+  <link rel="modulepreload" crossorigin href="./assets/Feature-C-z1jMdG.js">
+  <link rel="modulepreload" crossorigin href="./assets/GeoJSON-CLmLMiqc.js">
+  <link rel="stylesheet" crossorigin href="./assets/Layer-BtPuoxOl.css">
+  <link rel="stylesheet" crossorigin href="./assets/style-DMUWtGLK.css">
+</head>
+<body>
+    <div id="loading-mask">
+        <div id="loading-spinner">Loading...</div>
+    </div>
+    <div id="map"></div>
+    <div id="building-filter">
+        <label for="building-select">Building type:</label>
+        <select id="building-select">
+            <option value="apartments">Apartments</option>
+            <option value="church">Church</option>
+            <option value="commercial">Commercial</option>
+            <option value="hospital">Hospital</option>
+            <option value="office">Office</option>
+            <option selected value="university">University</option>
+        </select>
+    </div>
+</body>
+</html>
